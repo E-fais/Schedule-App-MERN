@@ -1,0 +1,19 @@
+{
+  "name": "itl-schedule",
+  "version": "1.0.0",
+  "description": "schedule listing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fais",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "twilio": "^4.11.0"
+  }
+}

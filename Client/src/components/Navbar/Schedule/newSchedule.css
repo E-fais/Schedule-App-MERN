@@ -1,0 +1,61 @@
+.container-div {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ccc;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px rgb(163, 158, 158);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .form-div {
+    margin-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='date'],input[type='checkbox'] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+  }
+  
+  input[type='text'] {
+    width: 100%;
+  }
+  
+  input[type='date'] {
+    width: 100%;
+  }
+  .consultant-chekbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+  
+  .consultant-chekbox label {
+    margin-right: 10px;
+  }
+  
+@media(max-width:600px){
+    .container-div{
+        max-width: 200px;
+        overflow: hidden;
+    }
+}
+  

@@ -1,0 +1,50 @@
+.register-page{
+    display: flex;
+    justify-content:center;
+  padding-top: 3rem;
+    font-family:'Rubik', Courier, monospace;
+    height: 80vh;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color:#02797366;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px  rgba(0,0,0,0.4);
+}
+.register-header{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.register-page input{
+   width: 20rem;
+   padding: 0.6rem;
+   border: none;
+   border-radius: 10px;
+}
+button{
+    border: none;
+    font-size: 1.4rem;
+    background-color:#1F3BE0 ;
+    color: white;
+    border-radius: 10px;
+    padding:1rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 2px gray;
+    cursor: pointer;
+}
+.login-link{
+    text-align: center;
+}
+.link{
+    font-weight: bold;
+    padding-left: 3px;
+}
+@media(max-width:600px){
+    input{
+        width:13rem;
+    }
+}
